@@ -11,7 +11,9 @@
     "ts:check": "tsc --noEmit"
   },
   "dependencies": {
+    "glob-parent": "5.1.2",
     "lodash": "4.17.21",
+    "serialize-javascript": "3.1.0",
     "source-map-support": "^0.5.10",
     "uuidv4": "^6.0.6"
   },
