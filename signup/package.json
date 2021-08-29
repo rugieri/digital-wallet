@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "source-map-support": "^0.5.10",
-    "uuidv4": "^6.0.6"
+    "uuidv4": "^6.2.12"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.51",
