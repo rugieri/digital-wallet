@@ -25,7 +25,7 @@ describe("Signup initilization", () => {
     expect(signup.initParams).to.be.deep.equal(signupParams);
   });
 
-  it("persit signup in the database", async () => {
+  it("persist signup in the database", async () => {
     const signup = await signupInit(signupParams);
 
     expect(insertSignup).to.have.been.calledOnce;
@@ -36,5 +36,5 @@ describe("Signup initilization", () => {
 const signupParams: SignupInitParams = {
   fullname: "Some Body",
   dateOfBirth: "1990-01-01",
-  address: "av. Somestreet, 123"
+  address: "av. Somestreet, 123",
 };
