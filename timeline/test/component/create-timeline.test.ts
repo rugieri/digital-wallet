@@ -3,6 +3,7 @@ import UserParams from "@src/types/user-params";
 import createTimeline from "@src/controllers/create-timeline";
 import timelineRepo from "@src/ports/repos/timeline";
 import { SinonStub, stub, restore } from "sinon";
+import { describe } from "mocha";
 
 let insertTimeline: SinonStub;
 
